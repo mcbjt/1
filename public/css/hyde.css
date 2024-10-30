@@ -1,4 +1,17 @@
-
+/*
+ *  __                  __
+ * /\ \                /\ \
+ * \ \ \___   __  __   \_\ \     __
+ *  \ \  _ `\/\ \/\ \  /'_` \  /'__`\
+ *   \ \ \ \ \ \ \_\ \/\ \_\ \/\  __/
+ *    \ \_\ \_\/`____ \ \___,_\ \____\
+ *     \/_/\/_/`/___/> \/__,_ /\/____/
+ *                /\___/
+ *                \/__/
+ *
+ * Designed, built, and released under MIT license by @mdo. Learn more at
+ * https://github.com/poole/hyde.
+ */
 
 
 /*
@@ -19,7 +32,7 @@
  */
 
 html {
-  font-family: Arial, sans-serif;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
 }
 @media (min-width: 48em) {
   html {
@@ -43,8 +56,8 @@ html {
 .sidebar {
   text-align: center;
   padding: 2rem 1rem;
-  color: #d62b2b;
-  background-color: #ff8f29;
+  color: rgba(255,255,255,.5);
+  background-color: #202020;
 }
 @media (min-width: 48em) {
   .sidebar {
@@ -66,9 +79,8 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: serif;
-  font-size: 2.25rem;
-  text-align: center;
+  font-family: "Abril Fatface", serif;
+  font-size: 3.25rem;
 }
 
 /* Sidebar nav */
@@ -81,22 +93,11 @@ html {
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
-  color: #d62b2b; text-decoration: underline;
+  text-decoration: underline;
 }
 .sidebar-nav-item.active {
   font-weight: bold;
 }
-
-/* Sidebar-image/
-/* About section image */
-.sidebar-image {
-  width: 100%; /* Adjust the size as needed */
-  height: auto; /* Maintain aspect ratio */
-  margin-t: 1rem; /* Space between image and title */
-  margin-bottom: 1rem; /* Space between image and title */
-  border-radius: 5px; /* Optional: add rounded corners */
-}
-
 
 /* Sticky sidebar
  *
@@ -174,7 +175,7 @@ a.sidebar-nav-item:focus {
  * within blog posts. To use, add the class of your choosing to the `body`.
  */
 
-/* Base16  */
+/* Base16 (http://chriskempson.github.io/base16/#default) */
 
 /* Red */
 .theme-base-08 .sidebar {
